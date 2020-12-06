@@ -1,9 +1,8 @@
-#include <iostream>
-#include <fstream>
+#include "Plugin.h"
 
-using namespace std;
-
-int main () {
-	printf("hello world");
-	return 0;
+Plugin::Plugin() {
+	cout <<"Plugin test"<<endl;
+}
+void Plugin::setTimer() {
+	cout <<"Timer test"<<endl;
 }
