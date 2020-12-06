@@ -1,0 +1,4 @@
+class ChannelPlugin {
+	public:
+	ChannelPlugin();
+};
